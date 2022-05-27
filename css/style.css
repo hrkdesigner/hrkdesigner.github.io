@@ -18,6 +18,9 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-justify: distribute;
+  letter-spacing: -1px;
+ 
 }
 
 #page {
@@ -244,7 +247,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-features .feature-left {
     float: none;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 #fh5co-features .feature-left .icon {
@@ -353,7 +356,7 @@ h1, h2, h3, h4, h5, h6, figure {
     
   }
   .text {
-    padding: 0 20px;
+    padding: 0 40px;
   }
 }
 
@@ -1053,6 +1056,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-footer p{
   margin-bottom: 0;
+  font-size: 11px;
 }
 
 .contact-info {
@@ -1346,6 +1350,12 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.download, .designer {
+  color: orangered;
+  text-decoration: none;
+
 }
 
 /*# sourceMappingURL=style.css.map */
