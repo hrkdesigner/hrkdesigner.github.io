@@ -13,13 +13,10 @@ body {
   line-height: 1.7;
   color: #1d1d1d;
   background: #fff;
-  cursor: default;
-  text-align: justify;
+  
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-justify: distribute;
-  letter-spacing: -1px;
  
 }
 
@@ -357,7 +354,10 @@ h1, h2, h3, h4, h5, h6, figure {
   }
   .text {
     padding: 0 40px;
+   
   }
+
+ 
 }
 
 .info li {
