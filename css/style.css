@@ -13,11 +13,18 @@ body {
   line-height: 1.7;
   color: #1d1d1d;
   background: #fff;
-  
+  text-align: justify;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-justify: distribute;
+  font-family: 'Old Standard TT', serif;
  
+}
+
+p{
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
 }
 
 #page {
@@ -306,6 +313,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-work{
   padding: 3em 0 8em 0;
 }
+#fh5co-resume {
+  padding-top: 1em;
+}
 @media screen and (max-width: 768px) {
   #fh5co-about,
   #fh5co-resume,
@@ -344,6 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   background-color: #330b2f;
   border-radius: 5px;
+  font-family: "Space Mono", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   .info {
@@ -354,7 +365,6 @@ h1, h2, h3, h4, h5, h6, figure {
   }
   .text {
     padding: 0 40px;
-   
   }
 
  
@@ -630,10 +640,10 @@ h1, h2, h3, h4, h5, h6, figure {
 .company {
   display: block;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
   color: #489955;
-  text-shadow: 1px 1px 2px #268f45;
+  text-shadow: 0 1px 2px #489955;
 }
 
 .timeline-body > p,
