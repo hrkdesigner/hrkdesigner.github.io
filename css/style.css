@@ -1353,9 +1353,16 @@ input[type="text"] {
 }
 
 .download, .designer {
+  position: relative;
+  z-index: 200;
   color: orangered;
   text-decoration: none;
 
+}
+
+.links{
+  position: relative;
+  z-index: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
